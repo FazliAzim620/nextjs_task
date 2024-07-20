@@ -5,8 +5,7 @@ import OperatorCard from "./OperatorCard";
 import FilterBox from "./FilterBox";
 
 export default function OperatorList() {
-  const [isFilterOpen, setIsFilterOpen] = useState(true
-                                                  );
+  const [isFilterOpen, setIsFilterOpen] = useState(true);
 
   const operators = [
     {
